@@ -12,7 +12,7 @@ int main(void)
 {
 	int c, d;
 
-	for (c = 48; c <= 56; c++)
+	for (c = 48; c <= 57; c++)
 	{
 		for (d = 49; d <= 57; d++)
 		{
