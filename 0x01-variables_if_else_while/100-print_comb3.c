@@ -4,6 +4,7 @@
 /**
  * main - print alphabet separated by comas all combinations of 2
  *
+ *
  * Return: Always 0
  */
 
@@ -11,13 +12,13 @@ int main(void)
 {
 	int c, d;
 
-	for (c = 48; c <= 57; c++)
+	for (c = 48; c <= 56; c++)
 	{
-		for (d = 48; d <= 57; d++)
+		for (d = 49; d <= 57; d++)
 		{
 			putchar(c);
 			putchar(d);
-			if (c != 57 && c != 57)
+			if (c != 56 && d != 57)
 			{
 				putchar(',');
 				putchar(' ');
