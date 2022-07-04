@@ -16,12 +16,15 @@ int main(void)
 	{
 		for (d = 49; d <= 57; d++)
 		{
-			putchar(c);
-			putchar(d);
-			if (c != 56 && d != 57)
+			if (c != d && c < d)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(c);
+				putchar(d);
+				if (c != 56 && d != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
