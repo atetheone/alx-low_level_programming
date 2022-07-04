@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - check the sign of a random number generated
  * it prints a sentence for the number sign
  * Return: Always 0 for success
