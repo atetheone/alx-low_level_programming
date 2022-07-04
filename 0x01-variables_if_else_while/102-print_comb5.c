@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - print alphabet separated by comas all combinations of 2
+ * main - print alphabet separated by comas all combinations of 2 by 2
  *
  *
  * Return: Always 0
@@ -12,16 +12,22 @@ int main(void)
 {
 	int c, d;
 
-	for (c = 48; c <= 57; c++)
+	for (c = 0; c <= 99; c++)
 	{
-		for (d = 48; d <= 57; d++)
+		for (d = 0; d <= 99; d++)
 		{
-			putchar(c);
-			putchar(d);
-			if (c != 57 || d != 57)
+			if ( c < d)
 			{
-				putchar(',');
+				putchar((c / 10) + 48);
+				putchar((c % 10) + 48);
 				putchar(' ');
+				putchar((d / 10) + 48);
+				putchar((d % 10) + 48);
+				if (c != 98 || d != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
