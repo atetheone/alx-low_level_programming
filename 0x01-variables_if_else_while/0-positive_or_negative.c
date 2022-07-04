@@ -5,8 +5,7 @@
 int main() {
 	int n;
 	srand(time(NULL));
-
-       	n = rand();
+       	n = rand() - RANDMAX / 2;
 
 	if (n < 0)
 		printf("%d is negative\n", n);
