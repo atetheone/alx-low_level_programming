@@ -4,7 +4,8 @@
 
 int main() {
 	srand(time(NULL));
-	int n = rand();
+	int n;
+       	n = rand();
 
 	if (n < 0)
 		printf("%d is negative\n", n);
