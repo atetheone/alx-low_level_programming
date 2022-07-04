@@ -3,8 +3,9 @@
 #include <time.h>
 
 int main() {
-	srand(time(NULL));
 	int n;
+	srand(time(NULL));
+
        	n = rand();
 
 	if (n < 0)
