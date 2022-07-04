@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*
+ * main: check the sign of a random number generated
+ *
+ * return: 0 for success
+ *
+ */
 
-int main() {
+int main(void) {
 	int n;
 	srand(time(NULL));
        	n = rand() - RAND_MAX / 2;
