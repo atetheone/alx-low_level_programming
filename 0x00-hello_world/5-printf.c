@@ -10,6 +10,6 @@
 
 int main(void)
 {
-	puts("With proper grammar, but the commit is a piece of art, \n");
+	printf("With proper grammar, but the commit is a piece of art, \n");
 	return (0);
 }
