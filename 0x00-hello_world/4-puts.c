@@ -1,7 +1,17 @@
+#include <stdio.h>
+#include <string.h>
 
-#!/bin/bash
+/**
+ * main print a sentence using puts only
+ *
+ * Return: Always 0 (success)
+ */
 
-int main(void) { 
-	printf("\"Programming is like building a multilangual puzzle");	
+int main(void)
+{ 
+	char s[52];
+
+	strcpy(s, "\"Programming is like building a multilingual puzzle");
+	puts(s);	
 	return (0);
 }
