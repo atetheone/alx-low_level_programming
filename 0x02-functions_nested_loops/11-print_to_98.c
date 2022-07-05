@@ -18,8 +18,8 @@ void print_to_98(int n)
 	}
 	else
 	{
-		a = 98;
-		b = n;
+		a = n;
+		b = 98;
 	}
 	for (n = a; n <= b; n++)
 	{
