@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * jack_bauer - print times table
+ * times_table - print times table
  *
  * Return: Nothing
  */
