@@ -16,10 +16,10 @@ void times_table(void)
 	{
 		for (x = 0; x < 10; x++)
 		{
-			if (p * x < 10)
-				printf("%d,  ", p * x);
-			else if (x == 9)
+			if (x == 9)
 				printf("%d", p * x);
+			else if (p * x < 19)
+				printf("%d,  ", p * x);
 			else
 				printf("%d, ", p * x);
 		}
