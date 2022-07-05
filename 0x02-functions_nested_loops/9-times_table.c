@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * jack_bauer - print time
+ * jack_bauer - print times table
  *
  * Return: Nothing
  */
 
-void jack_bauer(void)
+void times_table(void)
 {
 	int p;
 	int x;
