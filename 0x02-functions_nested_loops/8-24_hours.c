@@ -28,6 +28,6 @@ void jack_bauer(void)
 			else
 				printf("%d", min);
 		}
-		printf("\n");
+		printf('\n');
 	}
 }
