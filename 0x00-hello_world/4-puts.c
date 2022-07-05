@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * main print a sentence using puts only
+ * main - print a sentence using puts only
  *
  * Return: Always 0 (success)
  */
