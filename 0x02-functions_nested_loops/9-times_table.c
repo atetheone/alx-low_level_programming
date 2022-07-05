@@ -18,6 +18,8 @@ void times_table(void)
 		{
 			if (p * x < 10)
 				printf("%d,  ", p * x);
+			else if (x == 9)
+				printf("%d", p * x);
 			else
 				printf("%d, ", p * x);
 		}
