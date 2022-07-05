@@ -27,7 +27,7 @@ void jack_bauer(void)
 				printf("0%d", min);
 			else
 				printf("%d", min);
-			print("\n");
+			printf("\n");
 		}
 	}
 }
