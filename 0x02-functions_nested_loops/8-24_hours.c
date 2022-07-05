@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * jack_bauer - print time
@@ -16,17 +17,17 @@ void jack_bauer(void)
 		for (min = 0; min < 60; min++)
 		{
 			if (hour < 10)
-				_putchar('0' + hour);
+				printf("0%d", hour);
 			else
 			{
-				_putchar(hour);
+				printf("%d", hour);
 			}
-			_putchar(':');
+			printf(":");
 			if (min < 10)
-				_putchar('0' + min);
+				printf("0%d", min);
 			else
-				_putchar(min);
+				printf("%d", min);
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
