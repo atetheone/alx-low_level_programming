@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - print a sentence using puts only
@@ -8,10 +7,7 @@
  */
 
 int main(void)
-{
-	char s[52];
-	
-	strcpy(s, "\"Programming is like building a multilingual puzzle");
-	puts(s);	
+{	
+	puts("\"Programming is like building a multilingual puzzle");	
 	return (0);
 }
