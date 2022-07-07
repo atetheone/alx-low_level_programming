@@ -17,7 +17,7 @@ int main(void)
 		fib = a + b;
 		a = b;
 		b = fib;
-		if ( i < 50)
+		if (i < 50)
 			printf("%d, ", fib);
 		else
 			printf("%d", fib);
