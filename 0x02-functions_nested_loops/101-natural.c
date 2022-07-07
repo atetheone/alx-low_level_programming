@@ -13,6 +13,6 @@ int main(void)
 	for (i = 0; i < 1024; i++)
 		if (i % 3 || i % 5)
 			sum += i;
-	print("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
