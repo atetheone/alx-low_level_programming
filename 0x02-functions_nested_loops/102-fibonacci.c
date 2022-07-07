@@ -18,9 +18,9 @@ int main(void)
 		a = b;
 		b = fib;
 		if (i < 50)
-			printf("%d, ", fib);
+			printf("%ld, ", fib);
 		else
-			printf("%d", fib);
+			printf("%ld", fib);
 	}
 	return (0);
 }
