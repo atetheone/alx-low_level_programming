@@ -5,7 +5,7 @@
  * @n: sqaure size.
  * Return: no return.
  */
-void print_size(int n)
+void print_square(int n)
 {
 	int i, j;
 
