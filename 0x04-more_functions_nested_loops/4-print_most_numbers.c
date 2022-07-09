@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- **print_most_numbers - a function that prints the numbers, from 0 to 9 except 2 and 4. followed by a new line.
- **Return: Always 0
- **/
-
-void print_most_numbers(void)
+ * print_numbers - prints an integers from 0 to 9, except 2 and 4.
+ * Return: no return.
+ */
+void print_numbers(void)
 {
-	int i = '0';
+	int count;
 
-	for (; i <= '9'; i++)
+	count = 48;
+	for (; count <= 57; count++)
 	{
-		if (i != '2' && i != '4')
-			_putchar(i);
+		if (count != '2' && count != '4')
+			_putchar(count);
 	}
 	_putchar('\n');
 }
