@@ -11,15 +11,10 @@ void print_diagonal(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			if (i >= 2 && j <= i - 1)
-				_putchar(' ');
-			else
-				_putchar('\\');
-		}
-		if (i == n - 1)
-			break;
+		for (j = 0; j < i; j++)
+		
+			_putchar(' ');
+		_putchar('\\');
 		_putchar('\n');
 	}
 	_putchar('\n');
