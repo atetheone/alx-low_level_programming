@@ -13,9 +13,13 @@ void puts_half(char *str)
         j = 0;
 	while (str[j] != '\0' || str[j + 1] != '\0')
         {
-		_putchar(str[i]);
                 i++;
                 j += 2;
         }
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	_putchar('\n');
 }
