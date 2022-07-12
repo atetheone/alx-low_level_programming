@@ -7,13 +7,12 @@
  */
 void puts_half(char *str)
 {
-	int i, j;
-        i = 0;
-        j = 0;
+	int i = 0, j = 0;
+	
 	while (str[j] != '\0' || str[j + 1] != '\0')
         {
-                i++;
-                j += 2;
+		i++;
+		j += 2;
         }
 	while (str[i] != '\0')
 	{
