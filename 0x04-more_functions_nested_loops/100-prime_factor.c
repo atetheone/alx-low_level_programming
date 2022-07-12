@@ -1,20 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0
- */
+ **main- printing the lagest prime number
+ **n takes the value of the number lagest prime number
+ **num takes the value of the number
+ **Return: returns 0
+ **/
+
 int main(void)
 {
-	unsigned long int n;
-        int i;
-        
-        n = 612852475143
-	for (i = 3; i < 12057; i += 2)
+	long num = 612852475143;
+	int n;
+
+	while (n++ < num / 2)
 	{
-		while (n % i == 0 && n != i)
-			n /= i;
+		if (num % n == 0)
+		{
+			num /= 2;
+			continue;
+		}
+		for (n = 3; n < num / 2; n += 2)
+		{
+			if (num % n == 0)
+				num /= n;
+		}
 	}
-	printf("%lu\n", n);
+	printf("%ld\n", num);
 	return (0);
 }
