@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- * main - memcpy
- * @s: src
- * @b: destnation
+ * _memcpy - memcpy
+ * @src: src 
+ * @dest: destnation
  * @n: number of bytes
- * Return: a pointer to s
+ * Return: a pointer to dest
  */
 
-int main(void)
+char *_memcpy(char *src, char *dest, unsigned int n)
 {
-	return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		dest[i] = src[i];
+	return (dest);
 }
