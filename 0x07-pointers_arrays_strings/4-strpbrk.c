@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strpbrk - strpbrk
@@ -10,7 +11,6 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
-	cp = accept;
 
 	while(*s != '\0')
 	{
@@ -21,5 +21,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	return (0);
+	return (NULL);
 }
