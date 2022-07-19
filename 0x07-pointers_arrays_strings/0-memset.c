@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - memcpy
+ * _memset - memset
  * @s: src
  * @b: destnation
  * @n: number of bytes
