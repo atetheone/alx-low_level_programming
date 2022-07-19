@@ -7,7 +7,7 @@
  * Return: pointer to the first occ of a char of accept in s
  */
 
-char *strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
 
