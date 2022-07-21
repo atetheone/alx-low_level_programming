@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  */
 int rec_sqrt(int n, int x)
 {
-	if (x == n)
+	if (x > n || n < 1)
 		return (-1);
 	if (x * x == n)
 		return (x);
