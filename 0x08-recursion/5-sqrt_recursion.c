@@ -1,5 +1,7 @@
 #include "main.h"
 
+int rec_sqrt(int n, int x);
+
 /**
  * _sqrt_recursion - sqrt of n
  * @n: integer
