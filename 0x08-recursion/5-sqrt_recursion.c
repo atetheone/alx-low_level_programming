@@ -8,12 +8,20 @@
 
 int _sqrt_recursion(int n)
 {
-	int i;
+	return (rec_sqrt(n, 1));
+}
 
-	for (i = 1; i < n / 2; i++)
-	{
-		if (i * i == n)
-			return (i);
-	}
-	return (-1);
+/**
+ * rec_sqrt - sqrt checker
+ * @n: integer
+ * @x: counter
+ * Return: sqrt(n)
+ */
+int rec_sqrt(int n, int x)
+{
+	if (x == n)
+		return (-1);
+	if (x * x == n)
+		return (x);
+	return (rec_sqrt(n, x + 1));
 }
