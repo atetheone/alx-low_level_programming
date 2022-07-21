@@ -14,7 +14,7 @@ int divisors(int n, int m)
 	if (n % m == 0 || n == 1)
                 return (0);
 	else if (m < n)
-                return (divisors(n, m + 1);
+                return (divisors(n, m + 1));
 	else
 		return (1);
 }
