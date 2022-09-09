@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <unistd.h>
 
 /**
@@ -11,6 +12,8 @@
 
 int main(void)
 {
-	write(2, "and that piece of art is usefule\" - Dora Korpar, 2015-10-19\n", 59);
+	char text[] = "and that piece of art is usefule\" - Dora Korpar, 2015-10-19\n";
+	int s = strlen(text);
+	write(2, text, s);
 	return (1);
 }
