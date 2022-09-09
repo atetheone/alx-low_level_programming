@@ -14,6 +14,7 @@ int main(void)
 {
 	char t[] = "and that piece of art is usefule\" - Dora Korpar, 2015-10-19\n";
 	int s = strlen(t);
+	
 	write(2, t, s);
 	return (1);
 }
